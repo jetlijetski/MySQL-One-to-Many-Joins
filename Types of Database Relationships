@@ -1,0 +1,20 @@
+In real world databases, we don’t simply have a single database table working in an isolated manner, we need many different tables that have relation to one another. There are three primary modes of relationships in a relational database architecture.
+
+	1. One to One Relationship
+	• This relationship tells us that a single record in Table A is related to a single record in Table B. And vice versa.
+	• Uncommon in real world scenarios. 
+
+Example: 
+One table storing basic information on a customer, while another table stores more complex information about the customer. This is a One to One relationship because one row in the "Customers" table, relates to one row in the "Customer Details" table (i.e. Josh has one row in the "Customers" table that directly corresponds to one row in a "Customer Details" table.
+
+	2. One to Many Relationship
+	• This entails one data in Table A to have links to multiple data in Table B. However, a single data in Table B, will have link to a single data in Table A. 
+	• The most common type of relationship in a DBMS.
+
+Example:
+One good example to showcase such a relationship is through a bank account. One individual may have many bank accounts, but each bank account will be linked to one specific owner only.
+
+	3. Many to Many Relationship
+	• A many-to-many relationship exists when one or more items in one table can have a relationship to one or more items in another table.
+	
+Example: A great example would be linking a "Students" table to a "Courses" table. Table A has the name of all the students while Table B has the name of all the courses. A particular student may enroll oneself to more than one course whilst a course may have more than one student. Hence, it becomes a many to many relationships.
