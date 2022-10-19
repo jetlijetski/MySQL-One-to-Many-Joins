@@ -1,2 +1,2 @@
 # MySQL-One-to-Many-Joins
-Working with one to many relationships in MySQL
+The intention of this repo is to explain and contrast the different types of Joins you can establish using SQL. Primarily we are working with two tables: Customers and Orders. I also cover the importance of the ON DELETE CASCADE function in creating a table schema containing foreign keys. A challenge selection of problems is included at the end along with reasoning and clarification for my solutions. Thanks for stopping by!
